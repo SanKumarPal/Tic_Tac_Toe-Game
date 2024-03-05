@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #546887;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    border: 1px solid purple;
+    display: inline;
+    background-color: rgba(211, 20, 20, 0.644);
+    color: yellowgreen;
+    font-size: 50px;
+    box-shadow: 0 0 1rem rgba(238, 226, 63, 0.897);
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+    background-color: rgb(75, 18, 231);
+   box-shadow: 0 0 1rem rgba(128, 255, 0, 0.37);
+}
+
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: maroon;
+    background-color: rgba(238, 226, 63, 0.897)
+}
+:hover.box{
+    background-color: white;
+}
+#resetbtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 1rem;
+   border: none;
+}
+
+.new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 1rem;
+   border: none;
+}
+#msg{
+    color: yellow;
+    font-size: 8vmin;
+    background-color: rgba(0, 255, 255, 0.452);
+    border-radius: 1rem;
+    box-shadow: 0 0 0.4rem rosybrown;
+   
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
+:hover#resetbtn{
+    background-color: rgba(3, 56, 87, 0.897);
+}
+:hover.new-btn{
+    background-color: rgba(128, 255, 0, 0.37);
+}
